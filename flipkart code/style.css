@@ -127,7 +127,7 @@
     margin: 10px 5px;
     border-radius: 5px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .heading{
      display: flex;
@@ -177,10 +177,12 @@
      width: 100%;
      max-height: 366px;
      margin: 10px 0px;
+     overflow: hidden;
  }
  .all-common-col{
      text-align: center;
      line-height: 22px;
+     padding-left: 50px;
  }     
 
 .all-common-col h3,h4,h6{
@@ -207,6 +209,7 @@
     width: 69px;
     height: 150px;
     transition: 300ms;
+    
 }
 .all-common-col img:hover{
     transform: scale(0.9);
@@ -216,7 +219,13 @@
     height: 350px;
     text-align: center;
 }
-
+.all-common-sec-2{
+    box-shadow: rgb(177,174,174) 0px 0px 5px 1px;
+    padding: 10px 0px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    display: flex;
+}
 
 
 
