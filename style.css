@@ -149,9 +149,17 @@
 
  }
  .common-heading-left a{
-     margin-top: 10px;
-     margin-left: 5px;
+     display: inline;
+     margin-top: 12px;
+     margin-left: 8px;
      color: rgb(177,174,174);
+ }
+
+ .clock-icon{
+    color: rgb(177,174,174);
+    margin-left: 8px;
+    margin-top: 12px;
+
  }
 
 .common-heading-right button{
